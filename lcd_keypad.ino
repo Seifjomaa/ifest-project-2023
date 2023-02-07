@@ -4,7 +4,8 @@
 #include <MFRC522.h>
 
 #define RST_PIN         9          // Configurable, see typical pin layout above
-#define SS_PIN          10         // Configurable, see typical pin layout above
+#define SS_PIN          10  
+// Configurable, see typical pin layout above
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);  // Create MFRC522 instance
 LiquidCrystal_I2C_Hangul lcd(0x27,16,2); //LCD 클래스 초기화
